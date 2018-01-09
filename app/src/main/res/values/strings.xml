@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TestButterKnife</string>
+
+    <string-array name="test_array">
+        <item>央视一套</item>
+        <item>央视二套</item>
+        <item>央视五套</item>
+        <item>北京卫视</item>
+        <item>湖北卫视</item>
+        <item>浙江卫视</item>
+        <item>浙江卫视</item>
+        <item>东方卫视</item>
+    </string-array>
+
+    <bool name="test_bool">false</bool>
+
+    <fraction name="test_fraction">20.002</fraction>
+    <integer name="test_int">30</integer>
+</resources>

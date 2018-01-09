@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:focusable="true"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/MainAct_btn_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test" />
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/MainAct_imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/liuyifei" />
+
+
+    <TextView
+        android:id="@+id/MainAct_text_hello_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Hello World -- 1"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/MainAct_text_hello_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Hello World -- 2"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/MainAct_text_hello_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Hello World -- 3"
+        android:textSize="20sp" />
+    <CheckBox
+        android:visibility="gone"
+        android:id="@+id/MainAct_text_checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:checked="true"
+        />
+    <EditText
+        android:id="@+id/MainAct_edit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Please input name..." />
+
+    <EditText
+        android:id="@+id/MainAct_edit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Please input pwd..." />
+    <Button
+        android:id="@+id/MainAct_btn_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button 1" />
+
+    <Button
+        android:id="@+id/MainAct_btn_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button 2" />
+    <Button
+        android:id="@+id/MainAct_btn_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button 3" />
+    <Button
+        android:id="@+id/MainAct_btn_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="to Second act" />
+
+</LinearLayout>
